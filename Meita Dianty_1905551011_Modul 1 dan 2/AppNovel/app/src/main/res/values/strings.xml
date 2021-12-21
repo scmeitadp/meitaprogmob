@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Novel.id</string>
+    <string name="text_view">TextView</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="genre">Genre</string>
+    <string name="horor">Horor</string>
+    <string name="romance">Romance</string>
+    <string name="comedy">Comedy</string>
+    <string name="_0">0 th</string>
+</resources>

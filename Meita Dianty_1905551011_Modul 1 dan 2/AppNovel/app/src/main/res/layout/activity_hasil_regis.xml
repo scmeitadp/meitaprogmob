@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page3"
+    tools:context=".HasilRegis">
+
+
+    <TextView
+        android:id="@+id/hasil_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="202dp"
+        android:layout_toRightOf="@+id/text1"
+        tools:ignore="UnknownIdInLayout" />
+
+
+    <TextView
+        android:id="@+id/hasil_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textSize="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="262dp"
+        android:layout_toEndOf="@+id/text2"
+        tools:ignore="UnknownId,UnknownIdInLayout"
+        />
+
+
+    <TextView
+        android:id="@+id/hasil_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="322dp"
+        android:layout_toRightOf="@+id/text3"
+        tools:ignore="UnknownId,UnknownIdInLayout"
+        />
+
+
+    <TextView
+        android:id="@+id/hasil_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="382dp"
+        android:layout_toRightOf="@+id/text4"
+        tools:ignore="UnknownId,UnknownIdInLayout"
+        />
+
+    <TextView
+        android:id="@+id/hasil_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="442dp"
+        />
+
+
+    <TextView
+        android:id="@+id/hasil_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="507dp"
+        android:layout_marginRight="30dp"
+        android:text="Age"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/hasil_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genre"
+        android:textSize="18dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="567dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="30dp"
+        android:text="Ok" />
+
+
+</RelativeLayout>
